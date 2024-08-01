@@ -26,9 +26,9 @@ end
 group :test do
   gem 'rspec', '~> 3.10'
   gem 'rspec_junit_formatter'
-  gem 'rubocop', '~> 0.93', require: false
+  gem 'rubocop', '~> 1.0', '>= 1.0.0', require: false
   gem 'simplecov', '~> 0.21.2'
-  gem 'webmock', '~> 3.12'
+  gem 'webmock', '~> 3.13', '>= 3.13.0'
 end
 
 gem "json-schema", "~> 2.8"
