@@ -10,12 +10,12 @@ gem 'github-linguist', '~> 7.13.0'
 gem 'parser', '~> 3.0.0'
 gem 'rgl', '~> 0.5.7'
 gem 'safe_yaml', '~> 1.0'
-gem 'thor', '~> 1.1.0'
+gem 'thor', '~> 1.4.0'
 gem 'toml', '~> 0.2.0'
 
 group :scanners do
   gem 'brakeman', '4.10.0'
-  gem 'bundler-audit', '~> 0.8.0'
+  gem 'bundler-audit', '~> 0.9.0'
 end
 
 group :test, :development do
